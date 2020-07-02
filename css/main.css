@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    background-color: darkkhaki;
+    height: 5%;
+}
+
+header {
+    font-family: "Roboto Light", "sans-serif";
+}
+
+#main {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% 80%;
+    font-family: "Roboto Light", "sans-serif";
+
+}
+
+#r_block {
+    border: solid black;
+    float: left;
+    width: 100%;
+}
+#logo1 {
+    width: 100%;
+    height: 10%;
+}
+.item {
+    list-style-type: none;
+    width: 95%;
+    height: 50px;
+    text-align: left;
+    padding: 30px 0 30px 0;
+    margin: 5px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+#list_item {
+    margin: 0;
+    width: 100%;
+    padding-inline-start: 0;
+    vertical-align: middle;
+}
+#footer {
+    background-color: dimgrey;
+    height: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+#l_up {
+    height: 10%;
+    border: solid black;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+#l_item {
+    width: 99%;
+    margin: 0 0 0 10px;
+    float: right;
+    font-family: "Roboto Light", "sans-serif";
+}
+#action, #contact, #address{
+    padding: 30px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    font-family: "Roboto Light", "sans-serif";
+    font-weight: bold;
+}
+#house {
+    background-image: url("../img/house2.jpg");
+    background-position: center;
+    height: 50%;
+    width: 100%;
+}
+.description {
+    font-size: large;
+    font-family: "Roboto Light", "sans-serif";
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+#news {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    height: 25%;
+    column-gap: 10px;
+    margin: 30px 0 20px 30px;
+}
+#social {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    column-gap: 10px;
+    width: 100%;
+    height: 50px;
+}
+#social1 {
+    background-image: url("../img/facebooksmall.png");
+}
+#social2 {
+    background-image: url("../img/scypesmall.png");
+    }
+#social3 {
+    background-image: url("../img/twittersmall.png");
+}
+#social4 {
+    background-image: url("../img/whatsappsmall.png");
+}
+#social5 {
+    background-image: url("../img/vksmall.png");
+}
+#social6 {
+    background-image: url("../img/instagramsmall.png");
+}
+#social7 {
+    background-image: url("../img/telegramsmall.png");
+}
+ul {
+    list-style: none; /* Для списка убираем маркеры */
+    margin: 0; /* Нет отступов вокруг */
+    padding: 0; /* Убираем поля вокруг текста */
+    font-family: "Roboto Light", "sans-serif"; /* Рубленый шрифт для текста меню */
+    font-size: 10pt; /* Размер названий в пункте меню */
+}
+li ul {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-left: 300px; /* Сдвигаем подменю вправо */
+    margin-top: -2em; /* Сдвигаем подменю вверх */
+}
+li a {
+    display: block; /* Ссылка как блочный элемент */
+    padding: 5px; /* Поля вокруг надписи */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    color: black; /* Цвет текста */
+    background-color: aliceblue; /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+}
+li a:hover {
+    color: #ffe; /* Цвет текста активного пункта */
+    background-color: #5488af; /* Цвет фона активного пункта */
+}
+li:hover ul {
+    display: block; /* При выделении пункта курсором мыши отображается подменю */
+}
+.brd {
+    border-bottom: 1px solid #ccc; /* Линия снизу */
+}
